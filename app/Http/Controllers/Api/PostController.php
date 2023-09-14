@@ -17,6 +17,7 @@ class PostController extends Controller
 
         return response()->json([
             'data' => $posts,
+            'cover_image_server_url' => env('APP_URL') . '/storage/'
         ], 200);
     }
 
