@@ -8,6 +8,9 @@ Installation :
  - run " composer install " command ( composer required for yoru computer )
  - and run after composer install command " php artisan serve " command
 
+ - Run " php artisan make:filament-user " command add user for admin panel
+ - admin panel link : your_url/admin
+
 
 
 -------------------------------------------------------------------------------------------------
